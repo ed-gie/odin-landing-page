@@ -131,7 +131,7 @@ button {
     font-size: 36px;
     font-weight: 300;
     max-width: 780px;
-    margin-bottom: 0;
+    margin: 96px 0 0;
 
 }
 
@@ -141,4 +141,61 @@ button {
     padding-right: 360px;
     font-weight: 600;
     margin-bottom: 72px;
+}
+
+/* CALL TO ACTION SECTION */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    padding: 72px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    min-width: 960px;
+    border-radius: 8px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.action p {
+    margin: 0;
+}
+
+.action .action-title {
+    color: #E5E7EB;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.action .action-message {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.blue-box button {
+    border: 2px solid #E5E7EB;
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+footer p {
+    color: #E5E7EB;
 }
