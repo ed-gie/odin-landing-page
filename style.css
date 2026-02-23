@@ -1,0 +1,144 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+}
+
+.hero-text {
+    width: 380px;
+}
+
+.hero-text .main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text .main p {
+    margin: 0;
+}
+
+.hero-text .secondary, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text .secondary p {
+    margin: 18px 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero img {
+    height: 300px;
+    width: 300px;
+}
+
+/* RANDOM INFORMATION SECTION */
+
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random .info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.infos {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 72px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info p {
+    max-width: 150px;
+    text-align: center;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote .message {
+    align-self: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 780px;
+    margin-bottom: 0;
+
+}
+
+.quote .author {
+    align-self: flex-end;
+    margin-top: 0;
+    padding-right: 360px;
+    font-weight: 600;
+    margin-bottom: 72px;
+}
